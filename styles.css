@@ -1,0 +1,326 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.lin{
+    
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+}
+.linOne{
+
+    float: right;
+    padding-left: 32px;
+    min-width: auto;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    height: 48px;
+    color: black;
+    min-width: 320px;
+    position: relative;
+}
+.linTwo{
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    padding-left: 30px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    height: 48px;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+    
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+
+}
+.bo{
+
+    display: inline-block;
+    padding-left: 15px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+a.bon{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+.imOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.imTwo{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+.image{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    height: 92px;
+}
+.InXdpd{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.formOne{
+
+    width: auto;
+    max-width: 584px;
+    margin:0 auto;
+    max-height: 160px;
+    position: relative;
+    padding-top: 6px;
+}
+.inp{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    
+    height: 34px;
+    font-size: 16px;
+}
+
+
+.inpOne{
+    width: auto;
+    max-width: 584px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+.inpTwo{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+.inpTre{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.btnOne{
+    height: 70px;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+    display: block;
+    text-align: -webkit-center;
+}
+.googleSearch{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+body, button{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 400px;
+}
+#lin{
+    background-color: rgba(255,255,255,1);
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    color: black;
+    min-width: 320px;
+    position: relative;
+    transition: box-shadow 250ms;
+}
+#linOne{
+    padding: 8px;
+    width: 100%;
+    transition: background-color .4s;
+
+}
+#liTo{
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    padding-left: 30px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    height: 48px;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+    
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+
+    position: relative;
+    bottom: 36px;
+}
+.adse{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    position: relative;
+    top: 4px;
+}
+.line{
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+    top: 4px;
+}
+.fr{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+.title{
+    width: 100%;
+    clear: both;
+}
+
+.titleTwo{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+    float: left;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.white{
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%
+}
+.textOne{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.in{
+    width: 100%;
+    text-align: left;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+.gog{
+    flex: 1 1 auto;
+    overflow: hidden;
+    align-items: center;
+    vertical-align: middle;
+    padding-right: 30px;
+    box-sizing: border-box;
+
+    display: block;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+.gogOne{
+    padding-left: 12px;
+    line-height: normal;
+    position: relative;
+}
+.goTo{
+    outline: none;
+    color: inherit;
+    display: inline-block;
+    vertical-align: middle;    
+
+    
+}
+#but{
+    text-align: right;
+}
+.advS{
+    
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    float: right;
+    margin: 10px 0;
+    padding: 0 12px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
